@@ -7,10 +7,12 @@ __turbopack_context__.s([
     ()=>Sidebar
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/styled-jsx/style.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-client] (ecmascript) <export default as ArrowRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -222,205 +224,185 @@ function Sidebar() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative flex overflow-x-hidden group",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "animate-marquee whitespace-nowrap flex items-center gap-8 opacity-50 grayscale hover:grayscale-0 transition-all duration-500",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-1 font-bold text-xs hover:scale-110 transition-transform",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-lg",
-                                            children: "★"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sidebar.tsx",
-                                            lineNumber: 96,
-                                            columnNumber: 109
-                                        }, this),
-                                        " ARCELON"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 96,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "font-bold text-sm hover:scale-110 transition-transform",
-                                    children: "JawaArta"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 97,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-1 font-bold text-sm hover:scale-110 transition-transform",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-4 h-4 rounded-full border-2 border-current"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sidebar.tsx",
-                                            lineNumber: 98,
-                                            columnNumber: 109
-                                        }, this),
-                                        " DWS"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 98,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "font-bold text-sm flex items-center gap-1 hover:scale-110 transition-transform",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-4 h-4 bg-current transform rotate-45"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sidebar.tsx",
-                                            lineNumber: 99,
-                                            columnNumber: 109
-                                        }, this),
-                                        " Devin"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 99,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "font-bold text-sm hover:scale-110 transition-transform",
-                                    children: "Tangguh"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 100,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "font-bold text-xs hover:scale-110 transition-transform",
-                                    children: "WISNU TRANS"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 101,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-1 font-bold text-xs hover:scale-110 transition-transform",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-lg",
-                                            children: "★"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sidebar.tsx",
-                                            lineNumber: 102,
-                                            columnNumber: 109
-                                        }, this),
-                                        " ARCELON"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 102,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-1 font-bold text-xs hover:scale-110 transition-transform",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-lg",
-                                            children: "★"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sidebar.tsx",
-                                            lineNumber: 104,
-                                            columnNumber: 109
-                                        }, this),
-                                        " ARCELON"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 104,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "font-bold text-sm hover:scale-110 transition-transform",
-                                    children: "JawaArta"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 105,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-1 font-bold text-sm hover:scale-110 transition-transform",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-4 h-4 rounded-full border-2 border-current"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sidebar.tsx",
-                                            lineNumber: 106,
-                                            columnNumber: 109
-                                        }, this),
-                                        " DWS"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 106,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "font-bold text-sm flex items-center gap-1 hover:scale-110 transition-transform",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-4 h-4 bg-current transform rotate-45"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sidebar.tsx",
-                                            lineNumber: 107,
-                                            columnNumber: 109
-                                        }, this),
-                                        " Devin"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 107,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "font-bold text-sm hover:scale-110 transition-transform",
-                                    children: "Tangguh"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 108,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "font-bold text-xs hover:scale-110 transition-transform",
-                                    children: "WISNU TRANS"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 109,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-1 font-bold text-xs hover:scale-110 transition-transform",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-lg",
-                                            children: "★"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/sidebar.tsx",
-                                            lineNumber: 110,
-                                            columnNumber: 109
-                                        }, this),
-                                        " ARCELON"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 110,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/sidebar.tsx",
-                            lineNumber: 95,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                        className: "jsx-b2cc839815f04acb" + " " + "relative flex overflow-hidden",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                id: "b2cc839815f04acb",
+                                children: "@keyframes scroll{0%{transform:translate(0)}to{transform:translate(-100%)}}.marquee-content.jsx-b2cc839815f04acb{animation:20s linear infinite scroll}.marquee-content.jsx-b2cc839815f04acb:hover{animation-play-state:paused}"
+                            }, void 0, false, void 0, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-b2cc839815f04acb" + " " + "marquee-content flex items-center gap-8 opacity-50 grayscale hover:grayscale-0 transition-all duration-500 pr-8",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-b2cc839815f04acb" + " " + "flex items-center gap-1 font-bold text-xs hover:scale-110 transition-transform whitespace-nowrap",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "jsx-b2cc839815f04acb" + " " + "text-lg",
+                                                children: "★"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/sidebar.tsx",
+                                                lineNumber: 109,
+                                                columnNumber: 127
+                                            }, this),
+                                            " ARCELON"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/sidebar.tsx",
+                                        lineNumber: 109,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-b2cc839815f04acb" + " " + "font-bold text-sm hover:scale-110 transition-transform whitespace-nowrap",
+                                        children: "JawaArta"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sidebar.tsx",
+                                        lineNumber: 110,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-b2cc839815f04acb" + " " + "flex items-center gap-1 font-bold text-sm hover:scale-110 transition-transform whitespace-nowrap",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-b2cc839815f04acb" + " " + "w-4 h-4 rounded-full border-2 border-current"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/sidebar.tsx",
+                                                lineNumber: 111,
+                                                columnNumber: 127
+                                            }, this),
+                                            " DWS"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/sidebar.tsx",
+                                        lineNumber: 111,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-b2cc839815f04acb" + " " + "font-bold text-sm flex items-center gap-1 hover:scale-110 transition-transform whitespace-nowrap",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-b2cc839815f04acb" + " " + "w-4 h-4 bg-current transform rotate-45"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/sidebar.tsx",
+                                                lineNumber: 112,
+                                                columnNumber: 127
+                                            }, this),
+                                            " Devin"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/sidebar.tsx",
+                                        lineNumber: 112,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-b2cc839815f04acb" + " " + "font-bold text-sm hover:scale-110 transition-transform whitespace-nowrap",
+                                        children: "Tangguh"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sidebar.tsx",
+                                        lineNumber: 113,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-b2cc839815f04acb" + " " + "font-bold text-xs hover:scale-110 transition-transform whitespace-nowrap",
+                                        children: "WISNU TRANS"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sidebar.tsx",
+                                        lineNumber: 114,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/sidebar.tsx",
+                                lineNumber: 108,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                "aria-hidden": "true",
+                                className: "jsx-b2cc839815f04acb" + " " + "marquee-content flex items-center gap-8 opacity-50 grayscale hover:grayscale-0 transition-all duration-500 pr-8",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-b2cc839815f04acb" + " " + "flex items-center gap-1 font-bold text-xs hover:scale-110 transition-transform whitespace-nowrap",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "jsx-b2cc839815f04acb" + " " + "text-lg",
+                                                children: "★"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/sidebar.tsx",
+                                                lineNumber: 119,
+                                                columnNumber: 127
+                                            }, this),
+                                            " ARCELON"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/sidebar.tsx",
+                                        lineNumber: 119,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-b2cc839815f04acb" + " " + "font-bold text-sm hover:scale-110 transition-transform whitespace-nowrap",
+                                        children: "JawaArta"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sidebar.tsx",
+                                        lineNumber: 120,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-b2cc839815f04acb" + " " + "flex items-center gap-1 font-bold text-sm hover:scale-110 transition-transform whitespace-nowrap",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-b2cc839815f04acb" + " " + "w-4 h-4 rounded-full border-2 border-current"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/sidebar.tsx",
+                                                lineNumber: 121,
+                                                columnNumber: 127
+                                            }, this),
+                                            " DWS"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/sidebar.tsx",
+                                        lineNumber: 121,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-b2cc839815f04acb" + " " + "font-bold text-sm flex items-center gap-1 hover:scale-110 transition-transform whitespace-nowrap",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-b2cc839815f04acb" + " " + "w-4 h-4 bg-current transform rotate-45"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/sidebar.tsx",
+                                                lineNumber: 122,
+                                                columnNumber: 127
+                                            }, this),
+                                            " Devin"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/sidebar.tsx",
+                                        lineNumber: 122,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-b2cc839815f04acb" + " " + "font-bold text-sm hover:scale-110 transition-transform whitespace-nowrap",
+                                        children: "Tangguh"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sidebar.tsx",
+                                        lineNumber: 123,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-b2cc839815f04acb" + " " + "font-bold text-xs hover:scale-110 transition-transform whitespace-nowrap",
+                                        children: "WISNU TRANS"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sidebar.tsx",
+                                        lineNumber: 124,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/sidebar.tsx",
+                                lineNumber: 118,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/components/sidebar.tsx",
                         lineNumber: 94,
                         columnNumber: 9

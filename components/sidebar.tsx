@@ -90,24 +90,38 @@ export function Sidebar() {
         className="mt-12 lg:mt-0 overflow-hidden w-full"
       >
         <p className="text-sm font-medium text-zinc-400 mb-6 uppercase tracking-wider">Trusted by industry leaders</p>
-        {/* Implemented marquee for logos */}
-        <div className="relative flex overflow-x-hidden group">
-          <div className="animate-marquee whitespace-nowrap flex items-center gap-8 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-            <div className="flex items-center gap-1 font-bold text-xs hover:scale-110 transition-transform"><span className="text-lg">★</span> ARCELON</div>
-            <div className="font-bold text-sm hover:scale-110 transition-transform">JawaArta</div>
-            <div className="flex items-center gap-1 font-bold text-sm hover:scale-110 transition-transform"><div className="w-4 h-4 rounded-full border-2 border-current"></div> DWS</div>
-            <div className="font-bold text-sm flex items-center gap-1 hover:scale-110 transition-transform"><div className="w-4 h-4 bg-current transform rotate-45"></div> Devin</div>
-            <div className="font-bold text-sm hover:scale-110 transition-transform">Tangguh</div>
-            <div className="font-bold text-xs hover:scale-110 transition-transform">WISNU TRANS</div>
-            <div className="flex items-center gap-1 font-bold text-xs hover:scale-110 transition-transform"><span className="text-lg">★</span> ARCELON</div>
-            {/* Duplicate for seamless loop */}
-            <div className="flex items-center gap-1 font-bold text-xs hover:scale-110 transition-transform"><span className="text-lg">★</span> ARCELON</div>
-            <div className="font-bold text-sm hover:scale-110 transition-transform">JawaArta</div>
-            <div className="flex items-center gap-1 font-bold text-sm hover:scale-110 transition-transform"><div className="w-4 h-4 rounded-full border-2 border-current"></div> DWS</div>
-            <div className="font-bold text-sm flex items-center gap-1 hover:scale-110 transition-transform"><div className="w-4 h-4 bg-current transform rotate-45"></div> Devin</div>
-            <div className="font-bold text-sm hover:scale-110 transition-transform">Tangguh</div>
-            <div className="font-bold text-xs hover:scale-110 transition-transform">WISNU TRANS</div>
-            <div className="flex items-center gap-1 font-bold text-xs hover:scale-110 transition-transform"><span className="text-lg">★</span> ARCELON</div>
+        {/* Marquee animation */}
+        <div className="relative flex overflow-hidden">
+          <style jsx>{`
+            @keyframes scroll {
+              0% { transform: translateX(0); }
+              100% { transform: translateX(-100%); }
+            }
+            .marquee-content {
+              animation: scroll 20s linear infinite;
+            }
+            .marquee-content:hover {
+              animation-play-state: paused;
+            }
+          `}</style>
+          
+          <div className="marquee-content flex items-center gap-8 opacity-50 grayscale hover:grayscale-0 transition-all duration-500 pr-8">
+            <div className="flex items-center gap-1 font-bold text-xs hover:scale-110 transition-transform whitespace-nowrap"><span className="text-lg">★</span> ARCELON</div>
+            <div className="font-bold text-sm hover:scale-110 transition-transform whitespace-nowrap">JawaArta</div>
+            <div className="flex items-center gap-1 font-bold text-sm hover:scale-110 transition-transform whitespace-nowrap"><div className="w-4 h-4 rounded-full border-2 border-current"></div> DWS</div>
+            <div className="font-bold text-sm flex items-center gap-1 hover:scale-110 transition-transform whitespace-nowrap"><div className="w-4 h-4 bg-current transform rotate-45"></div> Devin</div>
+            <div className="font-bold text-sm hover:scale-110 transition-transform whitespace-nowrap">Tangguh</div>
+            <div className="font-bold text-xs hover:scale-110 transition-transform whitespace-nowrap">WISNU TRANS</div>
+          </div>
+          
+          {/* Duplicate for seamless loop */}
+          <div className="marquee-content flex items-center gap-8 opacity-50 grayscale hover:grayscale-0 transition-all duration-500 pr-8" aria-hidden="true">
+            <div className="flex items-center gap-1 font-bold text-xs hover:scale-110 transition-transform whitespace-nowrap"><span className="text-lg">★</span> ARCELON</div>
+            <div className="font-bold text-sm hover:scale-110 transition-transform whitespace-nowrap">JawaArta</div>
+            <div className="flex items-center gap-1 font-bold text-sm hover:scale-110 transition-transform whitespace-nowrap"><div className="w-4 h-4 rounded-full border-2 border-current"></div> DWS</div>
+            <div className="font-bold text-sm flex items-center gap-1 hover:scale-110 transition-transform whitespace-nowrap"><div className="w-4 h-4 bg-current transform rotate-45"></div> Devin</div>
+            <div className="font-bold text-sm hover:scale-110 transition-transform whitespace-nowrap">Tangguh</div>
+            <div className="font-bold text-xs hover:scale-110 transition-transform whitespace-nowrap">WISNU TRANS</div>
           </div>
         </div>
       </motion.div>
