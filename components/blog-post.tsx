@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import { siteImages } from "@/lib/site-images"
 import { motion } from "framer-motion"
 
 export function BlogPost({ slug }: { slug: string }) {
@@ -27,7 +28,7 @@ export function BlogPost({ slug }: { slug: string }) {
         className="relative w-full aspect-[16/10] rounded-2xl overflow-hidden mb-16 bg-gray-800"
       >
         <Image
-          src="/digital-transformation-abstract-technology.jpg"
+          src={siteImages.blogHero}
           alt="Digital Transformation"
           fill
           className="object-cover"

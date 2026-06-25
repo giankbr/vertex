@@ -1,7 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+
+const avatarColors = ["bg-orange-200 text-orange-900", "bg-sky-200 text-sky-900", "bg-emerald-200 text-emerald-900", "bg-violet-200 text-violet-900"];
 
 export function Testimonials() {
   const testimonials = [
@@ -61,13 +62,9 @@ export function Testimonials() {
                 "{testimonial.quote}"
               </motion.p>
               <div className="flex items-center gap-3">
-                <motion.div 
-                  className="w-10 h-10 rounded-full bg-gray-300 overflow-hidden relative"
-                  whileHover={{ scale: 1.1 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <Image src="/diverse-group-avatars.png" alt={testimonial.name} fill className="object-cover" />
-                </motion.div>
+                <div className={`flex h-10 w-10 items-center justify-center rounded-full text-sm font-semibold ${avatarColors[index % avatarColors.length]}`}>
+                  {testimonial.name.charAt(0)}
+                </div>
                 <div>
                   <div className="font-bold text-sm">{testimonial.name}</div>
                   <div className="text-xs text-gray-500">{testimonial.role}</div>

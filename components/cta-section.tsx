@@ -1,6 +1,7 @@
 import { ArrowRight } from 'lucide-react'
-import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { siteImages } from "@/lib/site-images"
 
 export function CtaSection() {
   return (
@@ -34,7 +35,7 @@ export function CtaSection() {
             <div className="relative w-full aspect-square max-w-md mx-auto">
                <div className="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent rounded-full blur-3xl" />
                <Image
-                src="/modern-ui-design-interface-card-.jpg"
+                src={siteImages.ctaPreview}
                 alt="Dashboard Preview"
                 width={500}
                 height={500}
